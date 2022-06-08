@@ -128,6 +128,10 @@ mkdir ~/data
  ~/logstash-7.15.0/bin/logstash -w 1 -b 1 --path.data ~/data/consumer_data -f ~/logstash_conf/consumer.conf
 ```
 
+![image](https://user-images.githubusercontent.com/30817824/172538187-01ce8b49-eac9-4118-8f3d-37eee556d76e.png)
+
+
+
 #### extra. LS_JAVA_OPT 설정을 logstash 시작시에 기본으로 적용하는 방법
 ```
 vi logstash-7.15.0/config/jvm.options
